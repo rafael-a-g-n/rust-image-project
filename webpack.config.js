@@ -3,6 +3,9 @@ const HTMLWebpackPlugin = require('html-webpack-plugin')
 const WasmPackPlugin = require('@wasm-tool/wasm-pack-plugin')
 
 module.exports = {
+    experiments: {
+        asyncWebAssembly: true
+    },
     entry: './public/main.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
