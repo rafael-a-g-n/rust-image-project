@@ -1,5 +1,7 @@
 /target
 /Cargo.lock
 /node_modules
+/pkg
 package.json
 package-lock.json
+webpack.config.js
